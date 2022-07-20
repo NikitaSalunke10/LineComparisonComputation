@@ -1,5 +1,3 @@
-﻿int x1 = 3, x2 = 4, y1 = 6, y2 = 3;
-int x3 = 2, x4 = 7, y3 = 3, y4 = 5;
-double line1 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-double line2 = Math.Sqrt(Math.Pow(x4 - x3, 2) + Math.Pow(y4 - y3, 2));
-Console.WriteLine(line1.Equals(line2));
+double x1 = 2, x2 = 7, y1 = 5, y2 =8; // declared and assign values for x1, x2 and y1, y2
+double length = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2)); // using the formula length is calculated
+Console.WriteLine("The length is : " +length); // displaying the calculated length
